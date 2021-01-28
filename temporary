@@ -1,0 +1,19 @@
+<p id="aligntoleft">YOU BELIEVE.</p>
+                <p id="aligntoright">WE CONNECT !</p>
+                 #aligntoleft{
+               float:left;
+               font-size: 28px;
+               font-weight: bold;
+               padding-top: 150px;
+               margin-left:280px;
+               color:grey;
+
+           }
+           #aligntoright{
+               float:right;
+               font-size: 28px;
+               font-weight: bold;
+               padding-top: 150px;
+               margin-right: 300px;
+               color:grey;
+           }

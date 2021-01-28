@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+
+        </title>
+        <style>
+            body{
+                background-color:white;
+            }
+             .header-container{
+                display:flex;
+                justify-content: space-between;
+                width:100%;
+                position:sticky;
+                top: 0%;
+            }
+            .headerlogo-container{
+                margin-left: 1px;
+                margin-top: -12px;
+            }
+            #buildwithus{
+                letter-spacing: 5px;
+                margin-top: -12px;
+            }
+            
+            .option-container{
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            .option-container>a{
+                margin-left:35px;
+                border:2px solid  #FFB547;
+                border-radius: 5px;
+                padding:5px;
+                color:black;
+                background-color: #FFB547;
+               
+            }
+            #id-user,#id-fav{
+                background-color: #ffffff;
+                border: 1px white;
+                }
+
+            .option-container a{
+                text-decoration:none;
+            }
+            #h2id{
+               text-align: center;
+               color:gray;
+               margin-left:50px;
+              
+           }
+
+           .main-container{
+               box-shadow:0 2px 3px;
+               background-color:white;
+                 margin-top: 80px;
+                 margin-left:250px;
+                margin-right:250px;
+                margin-bottom:30px;
+               
+                
+            
+                
+               
+
+             }
+
+             .child-container1{
+                 
+                 width:300px;
+                 height:400px;
+                 padding:10px;
+                 padding-left: 0px;;
+                
+                 color:gray;
+                 margin-left:100px;
+             }
+             .child-container2{
+                
+                 padding:10px;
+               
+                 width:300px;
+                 height:400px;
+                 color:black;
+                 padding-left: 0px;
+                 margin-left:100px ;
+                 
+             }
+             .sub-main {
+                 display: flex;
+                 width: 100%;
+                
+                 z-index:5;
+             }
+             input,textarea,select {
+                 border: 0;
+                 outline: 0;
+                 background-color: transparent;
+                 border-bottom: 2px solid #000;
+                 margin-bottom: 24px;
+                 
+             }
+            
+             #btn1{
+                 border:1px solid black ;
+                 color:black;
+                 background-color: #FFB547;
+                 border-radius: 6px;
+
+
+             }
+             #createprofile{
+                 padding-left: 25px;
+                 padding-top: 25px;
+             }
+             #verified{
+                padding-left: 25px;
+                padding-top: 30px;
+             }
+             #clients{
+                padding-left: 25px;
+                padding-top: 30px;
+             }
+             #portfolio{
+                padding-left: 25px;
+                padding-top: 30px;
+             }
+             .vl{
+                 border:2px solid black;
+                 height:380px;
+             }
+             .footer-class{
+                height:200px;
+                margin-top:140px;
+                border:1px solid black;
+                background-color: #A6A3A3;
+                color:rgb(43, 32, 32);
+                font-size:20px;
+            }
+            .footer-links{
+                text-align: center;
+                padding-top:80px;
+                color:black;
+                
+            }
+            .footer-links a{
+                text-decoration:none;
+            }
+            .footer-class>p{
+                text-align: center;
+                 color:black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header-container">
+            <div class="headerlogo-container">
+                <img src="logo.png" alt="logopic" width="150px" height="100px">
+                <p id="buildwithus">BUILD WITH US</p>
+            </div>
+            <div class="option-container">
+               
+                    <a href="#aboutusid">ABOUT US</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="avahiloginpage.html">LOGIN / SIGN UP</a>
+                    <a href="" id="id-user"><i class="fa fa-user-o" aria-hidden="true" style="font-size:25px;"></i></a>
+                    <a href="" id="id-fav"> <i style="font-size:24px" class="fa">&#xf004;</i></a>
+                    
+              
+            </div>
+        </div>
+
+
+        <div class="main-container" >
+            <h2 id="h2id">START BUILDING YOUR PORTFOLIO HERE</h2>
+            <div class="sub-main">
+                <div class="child-container1">
+                    <input type="text" placeholder="Your Name" id="yourname"><br>
+                    <input type="text" placeholder="Your Email" id="youremail"><br>
+                    <select name="selectcategory" placeholder="Iam A">
+                        <label for="chooseportfolio" name="Iam a">Iam a:</label>
+                        <option value="Iam a">Iam a</option>
+                            <option value="Contractor">Contractor</option>
+                            <option value="Architect">Architect</option>
+                            <option value="InteriorDesigner">InteriorDesigner</option>
+                            <option value="Civilengineer">Civilengineer</option>
+                        
+
+                    </select>
+                    <input type="text" placeholder="Years of Experience" id="yoe"><br>
+                    <input type="text" placeholder="Enter your location" id="location"><br>
+                   <textarea id="address" >Enter Full Address </textarea><br>
+                    <input type="number" placeholder="Enter your Mobile number" id="mobileno"><br>
+                    <button type="button" id="btn1">Verify and generate Pro Id</button>
+                </div>
+                <div class="vl"></div>
+                <div class="child-container2">
+                    <h4>Your way in 4 simple steps</h4><br>
+                    <i class="glyphicon glyphicon-pencil" style="font-size:24px"></i><span id="createprofile">Create Profile</span><br><br><br>
+                    <i class="fa fa-check-circle" style="font-size:24px"></i><span id="verified">Get Verified</span><br><br><br>
+                    <i class="fas fa-user-tie" style="font-size:24px"></i><span id="portfolio">Build Your Portfolio</span><br><br><br>
+                    <i class="fa fa-users" style="font-size:24px"></i><span id="clients">Get Clients/customers.</span><br><br><br>
+    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-class">
+            <div class="footer-links">
+            <a href="aboutus.html">About Us |</a>
+            <a href="termsandconditions.html">Terms&Conditions|</a>
+            <a href="Privacypolicy.html">Privacy Policy</a><br>
+            </div>
+            <p>Copyrights.All rights reserved</p>
+        </div>
+        
+    </body>
+</html>
